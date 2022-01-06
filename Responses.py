@@ -9,6 +9,12 @@ def sample_responses(input_text):
 
     if user_message in ("who are you","who are you?"):
         return "I am TechieKhtz!"
+    
+     if user_message in ("github link"):
+        return "https://github.com/Shashika503"
+
+    if user_message in ("Medium link"):
+        return "https://medium.com/@TechieKahtz" 
 
     if user_message in ("Could plz tell the time now?" , "time"):
         now = datetime.now()
