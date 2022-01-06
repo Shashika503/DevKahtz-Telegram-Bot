@@ -13,7 +13,7 @@ def sample_responses(input_text):
      if user_message in ("github link"):
         return "https://github.com/Shashika503"
 
-    if user_message in ("Medium link"):
+    if user_message in ("medium blog link"):
         return "https://medium.com/@TechieKahtz" 
 
     if user_message in ("Could plz tell the time now?" , "time"):
